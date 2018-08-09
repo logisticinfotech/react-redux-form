@@ -1,4 +1,4 @@
 # react-redux-form
 Simple react js demo using redux form
 
-![alt Redux form](https://www.dropbox.com/s/zyindtecjbwixbf/Aug-08-2018%2018-43-11-low.gif)
+![alt Redux form](https://www.logisticinfotech.com/wp-content/uploads/2018/08/ezgif.com-crop-1.gif)
