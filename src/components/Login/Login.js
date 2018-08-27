@@ -117,11 +117,11 @@ class Login extends Component {
                                         id="login-btn"
                                         className="btn p-0"
                                     >
-                                        <div className="login-boycott-bg-btn social-bg bg-primary d-flex justify-content-between align-items-center hb-fix-btn m-0 hb-login-fix-hieght">
-                                            <div className="float-left social-icon-bg login-boycott-bg hb-login-fix-hieght">
+                                        <div className="login-register-bg-btn social-bg bg-primary d-flex justify-content-between align-items-center hb-fix-btn m-0 hb-login-fix-hieght">
+                                            <div className="float-left social-icon-bg login-register-bg hb-login-fix-hieght">
                                                 <i className="fa fa-check" aria-hidden="true" />
                                             </div>
-                                            <div className="hb-btn-text login-boycott mx-auto" id="btnLogin">
+                                            <div className="hb-btn-text login-register mx-auto" id="btnLogin">
                                                 Login into Redux-form
                                                 <i
                                                     id="loading-submit"

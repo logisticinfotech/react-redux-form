@@ -293,11 +293,11 @@ class Register extends Component {
                                             className="btn p-0"
                                             disabled={submitting | invalid}
                                         >
-                                            <div className="login-boycott-bg-btn social-bg bg-primary d-flex justify-content-between align-items-center hb-fix-btn m-0 hb-login-fix-height">
-                                                <div className="float-left social-icon-bg login-boycott-bg hb-login-fix-height">
+                                            <div className="login-register-bg-btn social-bg bg-primary d-flex justify-content-between align-items-center hb-fix-btn m-0 hb-login-fix-height">
+                                                <div className="float-left social-icon-bg login-register-bg hb-login-fix-height">
                                                     <i className="fa fa-check" aria-hidden="true" />
                                                 </div>
-                                                <div className="hb-btn-text login-boycott mx-auto" id="btnSignup">
+                                                <div className="hb-btn-text login-register mx-auto" id="btnSignup">
                                                     Sign Up For
                                                     <i
                                                         id="loading-submit-reg"

@@ -2,7 +2,7 @@
     background-color: #efefef !important;
 }
 
-.login-boycott-bg-btn {
+.login-register-bg-btn {
     background-color: #ef1111 !important;
 }
 
@@ -35,34 +35,8 @@ a {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-.login-boycott-bg {
+.login-register-bg {
     background-color: #b93636;
-}
-
-.modal-header {
-    padding: 20px 0px;
-
-    img {
-        width: 55%;
-    }
-}
-
-.modal-body {
-    padding-bottom: 0px;
-    small {
-        font-size: 14px;
-        font-weight: 300;
-    }
-}
-
-.modal-footer {
-    color: black;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 32px;
-    a {
-        text-decoration: underline;
-    }
 }
 
 .hb-login-reg-wrapper {
@@ -95,22 +69,6 @@ a {
     }
 }
 
-#username-form {
-    width: 100%;
-}
-
-#reset-password {
-    width: 100%;
-    padding: 0px 15px;
-
-    .h3 {
-        font-size: 24px;
-    }
-}
-
-.hb-px-20 {
-    padding: 0px 0px;
-}
 .react-datepicker__input-container input {
     width: 453px !important;
 }
@@ -153,7 +111,7 @@ a {
                 height: 44px;
                 padding: 4px 25px;
             }
-            &.login-boycott-bg {
+            &.login-register-bg {
                 background-color: #b93636;
             }
             &.google-icon-bg {
@@ -177,7 +135,7 @@ a {
             vertical-align: text-bottom;
             font-size: var(--font16);
 
-            &.login-boycott {
+            &.login-register {
                 font-family: "Roboto-Condensed";
                 font-weight: 700;
                 font-size: 18px;
@@ -199,102 +157,5 @@ a {
     }
 }
 
-#vote-boycott-already-voted-or-switched {
-    .hb-vote-alert-msg {
-        margin: 10px;
-        font-size: 18px;
-        line-height: 24px;
-    }
-}
 
-.forgot-pass {
-    font-size: 12px;
-    font-weight: normal;
-}
 
-.checkbox {
-    color: black;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 10px;
-    /* Base for label styling */
-    input[type="checkbox"]:not(:checked),
-    input[type="checkbox"]:checked {
-        position: absolute;
-        left: -9999px;
-    }
-    input[type="checkbox"]:not(:checked) + label,
-    input[type="checkbox"]:checked + label {
-        font-weight: 300;
-        font-size: 12px;
-        position: relative;
-        padding-left: 22px;
-        cursor: pointer;
-    }
-    /* checkbox */
-    input[type="checkbox"]:not(:checked) + label:before,
-    input[type="checkbox"]:checked + label:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 2px;
-        width: 16px;
-        height: 16px;
-        border: 1px solid grey;
-        background: grey;
-        border-radius: 0px;
-    }
-    input[type="checkbox"]:not(:checked) + label:after,
-    input[type="checkbox"]:checked + label:after {
-        // content: "✔";
-        content: "\f00c";
-        position: absolute;
-        top: 6px;
-        left: 2px;
-        font-size: 12px;
-        line-height: 0.8; // color: white;
-        font-family: "FontAwesome";
-        color: #fff;
-        transition: all 0.2s;
-    }
-    input[type="checkbox"]:not(:checked) + label:after {
-        opacity: 0;
-    }
-    input[type="checkbox"]:checked + label:after {
-        opacity: 1;
-    }
-}
-
-::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: grey;
-    opacity: 1;
-    font-weight: 300;
-    /* Firefox */
-}
-
-:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: grey;
-    font-weight: 300;
-}
-
-::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: grey;
-    font-weight: 300;
-}
-
-.hr-text {
-    margin: 1.2rem 0rem 2rem 0rem;
-    position: relative;
-    border-color: white;
-    &::before {
-        content: "or";
-        position: absolute;
-        top: -13px;
-        left: 50%;
-        transform: translateX(-50%);
-        color: black;
-    }
-}
