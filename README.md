@@ -8,4 +8,6 @@ Here i have create simple example using [React](https://www.logisticinfotech.com
 
 Hope this will be helpful for person who is looking for this kind of soutions. Here i am attached small gif file with what i have developed using this code.
 
+## Further help
 
+Checkout full blog [here](https://www.logisticinfotech.com/blog/easiest-demo-to-learn-redux-in-reactjs-with-code-example/)
