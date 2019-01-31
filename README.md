@@ -1,3 +1,9 @@
+<p align="left">
+  <a href="https://www.logisticinfotech.com/blog/learn-redux-form-with-react-js"><img alt="npm version" src="https://img.shields.io/badge/npm-v4.0.0.0-green.svg"></a>
+  <a href="https://www.logisticinfotech.com/blog/learn-redux-form-with-react-js"<><img src="https://img.shields.io/badge/license-MIT-orange.svg"></a>
+</p>
+
+
 # react-redux-form
 
 ![alt Redux form](https://www.logisticinfotech.com/wp-content/uploads/2018/08/ezgif.com-crop-1.gif)
